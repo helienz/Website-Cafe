@@ -1,0 +1,213 @@
+.navbar .container-fluid{
+    background-color: #fff2e0;
+  }
+  
+  .collapse .nav-item {
+    font-size: 22px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  
+  
+  
+  .Promote {
+    font-family: 'Bad Script', cursive;
+      background-color: #fff2e0;
+      color: #a09488;
+      text-align: center;
+      padding: 1.75rem;
+      text-decoration: none;
+      font-size: 50px;
+      overflow: hidden;
+      font-style: inherit;
+      font-weight: bold;
+    }
+  
+  
+  .featurette-img{
+    object-fit:inherit;
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+
+  .featurette-heading{
+      text-align: left;
+    }
+
+    .row .col-md-12{
+        text-align: left;
+    }
+  .container{
+    float: center;
+    color: #a09488;
+    text-align: center;
+    padding-top: 2rem;
+    text-decoration: none;
+    font-size: 2rem;
+    overflow: hidden
+  }
+  
+  .container h2{
+    padding-bottom: 2rem;
+  }
+  
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: auto;
+    min-height: 25rem;
+    max-height: 42rem;
+  }
+  .carousel-item > img {
+    min-height: 25rem;
+    max-height: 42rem;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: auto;
+  }
+  
+  .d-block {
+    margin: auto;
+  object-fit: scale-down;
+  margin-top: auto;
+  padding-top: 2rem;
+  }
+  
+  .container a{
+  background-color: #fff2e0;
+  color: #000000;
+  border-color: #fff2e0;
+  }
+  
+  .container a:hover {
+    background-color: #a09488;
+    border-color: #a09488;
+  }
+  .carousel-control-prev-icon{
+    color: #000000;
+    background-color: #000000;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 4px 2px;
+    opacity: 0.6;
+    position: absolute;
+  }
+  
+  .carousel-control-next-icon{
+    color: #000000;
+    background-color: #000000;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 4px 2px;
+    opacity: 0.6;
+  }
+  .menudanlokasi{
+    padding-top: 4rem;
+    text-align: center;
+    
+    
+  }
+  .menudanlokasi a{
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  /* rtl:end:ignore */
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+  }
+  
+  /*Responsive location and menu button*/
+  
+  div.gallery {
+    font-family: 'Montserrat', sans-serif;    
+    float: left;
+    color: #241202;
+    text-shadow: 4rem;
+    text-align: center;
+    font-style: bold;
+    padding: 40px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    overflow: hidden; 
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  div.desc a {
+    color: black;
+    background-color: #fff2e0;
+  }
+  
+  div.desc a:hover {
+    color: white;
+    background-color: #a09488;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 50%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+    

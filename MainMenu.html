@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">   
+    <title>Java Cafe</title>
+    <!--Core JS files-->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/dd88ff6f6c.js" crossorigin="anonymous"></script>
+
+<!--Core CSS files-->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="logo.png" alt="logo" style="width: 120px; height: 120px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Location.html">Location</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              about us
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="https://www.facebook.com/riskie.arianto"><i class="fab fa-facebook-f"></i>  Facebook</a></li>
+              <li><a class="dropdown-item"href="https://www.instagram.com/riskiear/"><i class="fab fa-instagram"></i>  instagram</a></li>
+              <li><a class="dropdown-item"href="https://twitter.com/elonmusk"><i class="fab fa-twitter"></i>  Twitter</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Email : JavaCafe@gmail.com</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="FotoCafe/2.png" alt="Banner" width="100%" height="auto">
+      <div class="container">
+        <div class="carousel-caption text-start">
+          <h1>Coffee Time</h1>
+          <p>Start your everyday activities with a cup of the best coffee.</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="FotoCafe/1.png" alt="Banner" width="100%" height="auto">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Find our Coffee Shop </h1>
+          <p>Check out dozens of our branch coffee shop in your city</p>
+          <p><a class="btn btn-secondary" href="Location.html">Browse Location&raquo;</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="FotoCafe/4.png" alt="Banner" width="100%" height="auto">
+      <div class="container">
+        <div class="carousel-caption text-end">
+          <h1>Check out our menus </h1>
+          <p>taste the pleasure in every menus that we have</p>
+          <p><a class="btn btn-secondary" href="Menu.html">Browse Menu&raquo;</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="Promote">Check our current Promotion</div>
+
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="promo1.html"><img src="Promosi/1.png" alt="promosi1" class="d-block" width="70%" height="100%"></a>
+    </div>
+    <div class="carousel-item">
+      <a href="promo2.html"><img src="Promosi/2.png" alt="promosi2" class="d-block" width="70%" height="100%"></a>
+    </div>
+    <div class="carousel-item">
+      <a href="promo3.html"><img src="Promosi/3.png" alt="promosi3" class="d-block" width="70%" height="100%"></a>
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+  
+<div class="container marketing">
+
+  <!-- START THE FEATURETTES -->
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">Made from the <span class="text-muted">Good ingredients</span></h2>
+      <p class="lead">we only choose the good ingredients from local farmer to maintain the taste and pride.</p>
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-img" src="Featurette/1.png" alt="featurette">
+
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7 order-md-2">
+      <h2 class="featurette-heading">Proceed by the <span class="text-muted">Good people</span></h2>
+      <p class="lead">We only choose the best specialist in their job to maintain the quality of every menus we serve</p>
+    </div>
+    <div class="col-md-5 order-md-1">
+      <img class="featurette-img" src="Featurette/2.png" alt="featurette">
+
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">Served to the <span class="text-muted">Good Customer</span></h2>
+      <p class="lead">all of our menu are supposed to bring joy and delight to the customer and made them good customer</p>
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-img" src="Featurette/3.png" alt="featurette">
+
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <!-- /END THE FEATURETTES -->
+<!-- Three columns of text below the carousel -->
+<div class="row">
+
+  <div class="col-lg-4">
+    <img src="FotoProfilOrang/1.png" alt="Testi"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
+    <h2>@annaVon</h2>
+    <p>"Cafenya Nyaman banget. enak buat ngumpul sama temen-temen"</p>
+  </div><!-- /.col-lg-4 -->
+
+  <div class="col-lg-4">
+    <img src="FotoProfilOrang/2.png" alt="Testi"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
+    <h2>@Anthony111</h2>
+    <p>"Kopinya enak. pelayanannya juga bagus banget. bakal jadi tempat favorit saya ini"</p>
+  </div><!-- /.col-lg-4 -->
+
+  <div class="col-lg-4">
+    <img src="FotoProfilOrang/3.png" alt="Testi"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
+    <h2>@adamJohn22</h2>
+    <p>"nyesel baru tau tempat seperti ini. selain kopi, menu lainnya juga gak kalah enak"</p>
+  </div><!-- /.col-lg-4 -->
+
+  </div><!-- /.row -->
+
+</div><!-- /.container -->
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="FotoCafe/6.png">
+      <img src="FotoCafe/6.png" alt="Northern Lights" width="50%" height="400">
+    </a>
+    <div class="desc">Cek Menu Cafe!
+      <p><a class="btn btn-secondary" href="Menu.html">Cek Menu &raquo;</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="FotoCafe/7.png">
+      <img src="FotoCafe/7.png" alt="Mountains" width="50%" height="400">
+    </a>
+    <div class="desc">Cek Lokasi Cafe!
+      <p><a class="btn btn-secondary" href="Location.html">Cek Lokasi &raquo;</a></p>
+    </div>
+  </div>
+</div>
+
+
+<footer class="bg-light text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <p>Follow us</p>
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="https://www.facebook.com/riskie.arianto"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #55acee;"
+        href="https://twitter.com/elonmusk"
+        role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="https://www.instagram.com/riskiear/"
+        role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+<div class="text-center p-3" style="background-color: #fff2e0; color: black;">
+    © 2020 Copyright:
+    <a class="text-black" href="MainMenu.html">JavaCafe.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+</body>
+</html>
